@@ -54,16 +54,6 @@ This package lives in the npm index.
 Relevant commands:
 ```shell
 $ npm run build # builds the iframe embed and JS API (full and minified versions).
-
-# Building
-
-This project uses `browserify` to manage dependencies and build. `watchify` is
-especially convenient to preserve the write-and-reload model of development.
-This package lives in the npm index.
-
-Relevant commands:
-```shell
-$ npm run build # builds the iframe embed and JS API (full and minified versions).
 $ npm run build-api # builds the JS API (full and minified versions).
 
 $ npm run build-min # builds the minified iframe embed.
